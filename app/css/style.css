@@ -362,6 +362,36 @@ ul,
 li {
   list-style-type: none;
 }
+.button {
+  display: block;
+  background: #f45653;
+  color: #fff;
+  font-family: 'PTSansBold', sans-serif;
+  border-radius: 4px;
+  padding: 8px 10px;
+  float: left;
+  text-decoration: none;
+  font-size: 12px;
+}
+.button:hover {
+  background: #276c61;
+  color: #fff;
+}
+.button-big {
+  display: block;
+  background: #f45653;
+  color: #fff;
+  font-family: 'PTSansBold', sans-serif;
+  border-radius: 4px;
+  padding: 8px 10px;
+  float: left;
+  text-decoration: none;
+  font-size: 15px;
+}
+.button-big:hover {
+  background: #276c61;
+  color: #fff;
+}
 .wrapper {
   float: left;
   width: 100%;
@@ -1099,4 +1129,779 @@ footer .social li .insst {
   background: url(../img/inst.svg);
   background-color: #276c61;
   margin-right: 0px;
+}
+.home .right-content-block h1 {
+  font-size: 30px !important;
+  color: #21202e !important;
+  font-family: 'PTSansBold', sans-serif !important;
+  margin-bottom: 20px;
+}
+.home .right-content-block .news--tovar--one {
+  margin-bottom: 20px;
+}
+.krash {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.krash a {
+  font-size: 14px;
+  color: #f45653;
+}
+.krash a.active {
+  font-size: 14px;
+  color: #f45653;
+  text-decoration: underline;
+}
+.s-form--tovs {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #f0f0f0;
+  padding: 15px 30px;
+  border-radius: 1px;
+  border: solid 1px #d5d4d4;
+  min-height: 205px;
+  position: relative;
+}
+.s-form--tovs .s-form--tovs--line {
+  float: left;
+  width: 100%;
+  padding: 15px 0;
+}
+.s-form--tovs label {
+  display: inline-block;
+  float: left;
+  min-width: 115px;
+  color: #333333;
+  font-size: 14px;
+}
+.s-form--tovs .ot--do {
+  display: inline-block;
+  float: left;
+  color: #333333;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.s-form--tovs .in {
+  color: #333333;
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+  width: 65px;
+  border: solid 1px #d5d4d4;
+  margin-top: -6px;
+  margin-right: 10px;
+  padding: 4px 6px;
+}
+.s-form--tovs a {
+  display: inline-block;
+  float: left;
+  color: #333333;
+  font-size: 14px;
+  margin-right: 15px;
+  margin: 0 25px;
+  text-decoration: underline;
+  position: relative;
+}
+.s-form--tovs .tovs-cl {
+  position: absolute;
+  display: none;
+  width: 12px;
+  height: 2px;
+  background: #f45653;
+  -moz-transform: rotate(45deg);
+  /* Для Firefox */
+  -ms-transform: rotate(45deg);
+  /* Для IE */
+  -webkit-transform: rotate(45deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(45deg);
+  /* Для Opera */
+  transform: rotate(45deg);
+  top: 3px;
+  right: -16px;
+}
+.s-form--tovs .tovs-cl::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 2px;
+  background: #f45653;
+  -moz-transform: rotate(-90deg);
+  /* Для Firefox */
+  -ms-transform: rotate(-90deg);
+  /* Для IE */
+  -webkit-transform: rotate(-90deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-90deg);
+  /* Для Opera */
+  transform: rotate(-90deg);
+}
+.s-form--tovs a:hover {
+  color: #f45653;
+}
+.s-form--tovs a:hover .tovs-cl {
+  display: block;
+}
+.s-form--tovs .dec-non {
+  text-decoration: none !important;
+}
+.s-form--tovs .activs-cl {
+  color: #f45653;
+}
+.s-form--tovs .activs-cl .tovs-cl {
+  display: block;
+}
+.s-form--tovs .s-form--tovs--line3 {
+  float: left;
+  width: 100%;
+  padding: 15px 0;
+}
+.s-form--tovs .s-form--tovs--line3 .one-b {
+  position: relative;
+  float: left;
+  display: block;
+  padding: 12px 28px;
+  background: #f45653;
+  color: #fff;
+  font-family: 'PTSansBold', sans-serif;
+  text-decoration: none;
+  margin-left: 0px;
+  margin-right: 15px;
+}
+.s-form--tovs .s-form--tovs--line3 .one-b::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 25px;
+  right: -5px;
+  top: 8px;
+  -moz-transform: rotate(45deg);
+  /* Для Firefox */
+  -ms-transform: rotate(45deg);
+  /* Для IE */
+  -webkit-transform: rotate(45deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(45deg);
+  /* Для Opera */
+  transform: rotate(45deg);
+  background: #f45653;
+}
+.s-form--tovs .s-form--tovs--line3 .two-b {
+  float: left;
+  display: block;
+  padding: 12px 28px;
+  background: #276c61;
+  color: #fff;
+  font-family: 'PTSansBold', sans-serif;
+  text-decoration: none;
+  margin-left: 0px;
+  margin-right: 15px;
+  position: relative;
+}
+.s-form--tovs .s-form--tovs--line3 .two-b .b-cl {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  background: #fff;
+  -moz-transform: rotate(45deg);
+  /* Для Firefox */
+  -ms-transform: rotate(45deg);
+  /* Для IE */
+  -webkit-transform: rotate(45deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(45deg);
+  /* Для Opera */
+  transform: rotate(45deg);
+  top: -4px;
+  left: -5px;
+}
+.s-form--tovs .s-form--tovs--line3 .two-b .b-cl::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  background: #fff;
+  -moz-transform: rotate(-90deg);
+  /* Для Firefox */
+  -ms-transform: rotate(-90deg);
+  /* Для IE */
+  -webkit-transform: rotate(-90deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-90deg);
+  /* Для Opera */
+  transform: rotate(-90deg);
+  top: 0px;
+  left: 0px;
+}
+.s-form--tovs .s-form--tovs--line3 .dec-non {
+  text-decoration: none !important;
+}
+.s-form--tovs .liners {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.s-form--tovs .liners li {
+  float: left;
+  width: 26px;
+  height: 26px;
+  margin: 0 13px;
+  background-color: #276c61;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: contain!important;
+  cursor: pointer;
+}
+.s-form--tovs .liners .lins {
+  background-image: url(../img/liners.png);
+}
+.s-form--tovs .liners .lins2 {
+  background-image: url(../img/kubs.png);
+}
+.s-form--tovs .liners .lins3 {
+  background-image: url(../img/wtf.png);
+  margin-right: 0px;
+}
+.s-form--tovs .liners li:hover {
+  background-color: #f45653;
+}
+.s-form--tovs .liners .active {
+  background-color: #f45653;
+}
+.paginator {
+  float: right;
+  margin: 25px 0;
+}
+.paginator li {
+  display: inline-table;
+  float: left;
+  margin: 0 6px;
+}
+.paginator li a {
+  display: block;
+  padding: 10px 6px;
+  color: #333333;
+}
+.paginator .active {
+  background: #f45653;
+}
+.paginator .active a {
+  color: #fff;
+}
+.paginator li:hover {
+  background: #f45653;
+}
+.paginator li:hover a {
+  color: #fff;
+}
+.karta-tovara {
+  float: left;
+  width: 100%;
+}
+.karta-tovara .karta-tovara--slider {
+  float: left;
+  width: 320px;
+  border-right: solid 20px transparent;
+  overflow: hidden;
+}
+.karta-tovara .karta-tovara--slider .karta-tovara--slider-ekran {
+  float: left;
+  width: 100%;
+  height: 230px;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: COVER !important;
+  margin-bottom: 15px;
+}
+.karta-tovara .karta-tovara--slider .karta-tovara--slider-row {
+  float: left;
+  width: 100%;
+}
+.karta-tovara .karta-tovara--slider .karta-tovara--slider-row a {
+  float: left;
+  width: 20%;
+  height: 50px;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: COVER !important;
+  margin-right: 20px;
+}
+.karta-tovara .karta-tovara--slider .karta-tovara--slider-row a:last-child {
+  margin-right: 0px;
+}
+.karta-tovara .karta-tovara--slider .karta-tovara--slider-row a:hover {
+  border: solid 2px #f45653;
+}
+.karta-tovara .karta-tovara--info {
+  float: left;
+  width: 370px;
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 1px;
+  border: solid 1px #d5d4d4;
+  min-height: 205px;
+  position: relative;
+  height: 295px;
+}
+.karta-tovara .karta-tovara--info .old-cena {
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+  text-decoration: line-through;
+}
+.karta-tovara .karta-tovara--info .new-cena {
+  font-size: 24px;
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+  color: #276c61;
+  font-family: 'PTSansBold', sans-serif;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-line {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-line .desc {
+  color: #a5a5a5;
+  font-size: 15px;
+  display: inline-block;
+  min-width: 135px;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-line .prod-ps {
+  display: inline-block;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: COVER !important;
+  width: 85px;
+  height: 20px;
+  background: url(../img/prois.jpg);
+  margin-bottom: -5px;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-line .prod-color {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: solid 1px #d5d4d4;
+  margin: 0 5px;
+  margin-bottom: -10px;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-line .ya-share2__item_service_collections {
+  display: none;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-line .ya-share2__item {
+  margin-right: 10px;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-opt {
+  float: left;
+  width: 100%;
+  margin: 15px 0 25px;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-opt i {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: contain!important;
+  background: url(../img/proc.png);
+  margin-right: 20px;
+}
+.karta-tovara .karta-tovara--info .karta-tovara--one-opt span {
+  font-family: 'PTSansBold', sans-serif;
+  font-size: 15px;
+}
+.parametri {
+  float: left;
+  width: 100%;
+  margin-top: 110px;
+}
+.parametri .tabs {
+  width: 100%;
+  float: left;
+  height: 200px;
+  background: #fff;
+  border: solid 1px #d5d4d4;
+  position: relative;
+}
+.parametri .tabs .button--tab {
+  float: left;
+  width: 100%;
+  margin-top: -41px;
+  margin-bottom: 15px;
+  margin-left: -1px;
+}
+.parametri .tabs .button--tab .but-one {
+  display: inline-block;
+  float: left;
+  padding: 10px 18px;
+  background: #276c61;
+  margin-right: 5px;
+  border: solid 1px #d5d4d4;
+  color: #fff;
+  font-family: 'PTSansBold', sans-serif;
+  font-size: 15px;
+  margin-bottom: -1px;
+}
+.parametri .tabs .button--tab .active {
+  background: #fff;
+  color: #21202e;
+  border-bottom: solid 1px #fff;
+}
+.parametri .tabs .abs-tab {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  padding: 15px;
+}
+.parametri .tabs .one-line {
+  display: table;
+  width: 100%;
+  height: 40px;
+  float: left;
+}
+.parametri .tabs .two-line {
+  display: table;
+  width: 100%;
+  height: 30px;
+  background: #f0f0f0;
+  float: left;
+}
+.parametri .tabs .title {
+  font-family: 'PTSansBold', sans-serif;
+  color: #21202e;
+  display: inline-block;
+  padding-left: 18px;
+  min-width: 340px;
+}
+.parametri .tabs .sizer {
+  color: #21202e;
+  display: inline-block;
+  font-size: 14px;
+}
+.parametri .tags {
+  float: left;
+  width: 100%;
+  background: #f0f0f0;
+  height: 39px;
+  display: table;
+  border-top: solid 1px #d5d4d4;
+  padding: 0 33px;
+  margin-right: 15px;
+  margin-bottom: 70px;
+}
+.parametri a {
+  color: #21202e;
+  text-decoration: underline;
+}
+.parametri a:hover {
+  color: #f45653;
+}
+.recom {
+  float: left;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.recom h2 {
+  margin-bottom: 32px;
+}
+.recom .recom-tovs-block {
+  float: left;
+  width: 100%;
+  display: inline-block;
+}
+.recom .recom-tovs-block .recom-one {
+  float: left;
+  width: 33.33333%;
+  padding-right: 20px;
+}
+.recom .recom-tovs-block .recom-one .image {
+  float: left;
+  width: 100%;
+}
+.recom .recom-tovs-block .recom-one .image img {
+  width: auto;
+  margin: 0px;
+}
+.recom .recom-tovs-block .recom-one .recom-title {
+  margin: 22px 0;
+  color: #f45653;
+  font-size: 15px;
+  float: left;
+  width: 100%;
+}
+.recom .recom-tovs-block .recom-one .old-cena {
+  display: inline-block;
+  text-decoration: line-through;
+  margin-right: 15px;
+}
+.recom .recom-tovs-block .recom-one .new-cena {
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'PTSansBold', sans-serif;
+}
+.kategori {
+  float: left;
+  width: 100%;
+}
+.kategori h2 {
+  margin: 32px 0;
+}
+.kategori .kat-but {
+  float: left;
+  display: block;
+  padding: 12px 28px;
+  background: #276c61;
+  color: #fff;
+  font-family: 'PTSansBold', sans-serif;
+  text-decoration: none;
+  margin-left: 0px;
+  margin-right: 35px;
+  position: relative;
+}
+.kategori .kat-but::before {
+  content: '';
+  position: absolute;
+  display: block;
+  background: #276c61;
+  -moz-transform: rotate(45deg);
+  /* Для Firefox */
+  -ms-transform: rotate(45deg);
+  /* Для IE */
+  -webkit-transform: rotate(45deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(45deg);
+  /* Для Opera */
+  transform: rotate(45deg);
+  right: -14px;
+  top: 6px;
+  width: 30px;
+  height: 30px;
+}
+article {
+  float: left;
+  width: 100%;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+article p {
+  margin: 15px 0;
+}
+article h1,
+article h2,
+article h3,
+article h4 {
+  font-family: 'PTSansBold', sans-serif;
+  color: #21202e;
+}
+article h1 {
+  font-size: 30px;
+  margin-top: 0px;
+}
+article h2 {
+  font-size: 23px;
+}
+article h3 {
+  font-size: 20px;
+}
+article h4 {
+  font-size: 18px;
+}
+article h5 {
+  font-family: 'TSansRegular', sans-serif;
+  font-size: 18px;
+}
+article h6 {
+  font-family: 'TSansRegular', sans-serif;
+  font-size: 18px;
+  color: #878688;
+}
+article p {
+  font-size: 14px;
+  float: left;
+  width: 100%;
+}
+article a {
+  color: #f45653;
+  text-decoration: underline;
+}
+article a:visited {
+  color: #c59b9a;
+}
+article a:hover {
+  color: #276c61;
+}
+article p.reeds {
+  font-style: italic;
+  padding: 20px 25px;
+  border: solid 2px #276c61;
+  margin: 25px 0;
+}
+article b {
+  font-family: 'PTSansBold', sans-serif;
+}
+article ul {
+  float: left;
+  width: 100%;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+article ul li {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  padding: 12px 0;
+  padding-left: 17px;
+  font-weight: 400;
+}
+article ul li::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 18px;
+  width: 5px;
+  height: 5px;
+  background: #276c61;
+}
+article ol {
+  float: left;
+  width: 100%;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+  counter-reset: li;
+  padding: 0;
+  list-style: none;
+  margin-left: 18px;
+}
+article ol li {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  padding: 12px 0;
+  font-weight: 400;
+}
+article ol li::before {
+  content: counter(li);
+  content: counter(li) '. ';
+  counter-increment: li;
+  position: absolute;
+  top: 8px;
+  left: -2em;
+  width: 2em;
+  padding: 4px 0;
+  text-align: center;
+  font-size: 15px;
+}
+article form {
+  float: left;
+  width: 100%;
+  margin: 15px 0;
+}
+article form label {
+  color: #666666;
+  font-size: 15px;
+  float: left;
+  width: 100%;
+  margin-bottom: 12px;
+}
+article form label.time {
+  color: #21202e;
+  font-size: 15px;
+  float: left;
+  width: auto;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+article form input,
+article form textarea {
+  font-size: 15px;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  color: #21202e;
+  padding: 10px 18px;
+  border: solid 1px #bcbcbc;
+  border-radius: 5px;
+}
+article form input:invalid {
+  border: solid 1px #f45653;
+}
+article form input:focus {
+  border: solid 1px #4fa4da;
+}
+article form input:valid {
+  border: solid 1px #59d4bf;
+}
+article form input:disabled {
+  border: solid 0px;
+}
+article form input.time {
+  font-size: 15px;
+  float: left;
+  width: 75px;
+  margin-bottom: 30px;
+  color: #21202e;
+  padding: 10px 18px;
+  border: solid 1px #bcbcbc;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-top: -10px;
+}
+article form textarea {
+  height: 175px;
+}
+article .tab1 {
+  float: left;
+  width: 100%;
+  margin: 15px 0;
+  position: relative;
+  background: #fff;
+}
+article .tab1 .table {
+  float: left;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 15px 15px 0;
+}
+article .tab1 .one-line {
+  display: table;
+  width: 100%;
+  height: 40px;
+  float: left;
+}
+article .tab1 .two-line {
+  display: table;
+  width: 100%;
+  height: 30px;
+  background: #f0f0f0;
+  float: left;
+}
+article .tab1 .title {
+  font-family: 'PTSansBold', sans-serif;
+  color: #21202e;
+  display: inline-block;
+  padding-left: 18px;
+  min-width: 340px;
+}
+article .tab1 .sizer {
+  color: #21202e;
+  display: inline-block;
+  font-size: 14px;
 }
