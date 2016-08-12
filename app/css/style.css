@@ -519,7 +519,7 @@ header .button-block a {
   background: #f45653;
   color: #fff;
   font-family: 'PTSansBold', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   text-transform: uppercase;
   border-radius: 4px;
@@ -535,7 +535,7 @@ header .button-block a {
 }
 .navigate .left-block {
   float: left;
-  width: 240px;
+  width: 250px;
   padding-right: 20px;
   height: 100%;
   display: table;
@@ -543,7 +543,7 @@ header .button-block a {
 }
 .navigate .left-block input {
   float: left;
-  width: 184px;
+  width: 191px;
   border: solid 1px #bcbcbc;
   border-radius: 3px;
   padding: 8px 18px;
@@ -565,7 +565,7 @@ header .button-block a {
 .navigate nav {
   float: left;
   height: 100%;
-  width: 698px;
+  width: 688px;
   overflow: hidden;
 }
 .navigate nav a {
@@ -574,7 +574,7 @@ header .button-block a {
   color: #21202e;
   font-size: 16px;
   font-family: 'PTSansBold', sans-serif;
-  margin-right: 80px;
+  margin-right: 78px;
   padding-top: 18px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -623,6 +623,7 @@ header .button-block a {
   display: table-cell;
   vertical-align: middle;
   font-family: 'PTSansBold', sans-serif;
+  font-size: 15px;
 }
 .home .left-block .sub--menu--tovarov .title-block .title-block-ico {
   display: inline-table;
@@ -784,7 +785,7 @@ header .button-block a {
   color: #fff;
   font-family: 'PTSansBold', sans-serif;
   border-radius: 4px;
-  padding: 8px 10px;
+  padding: 8px 14px;
 }
 .home .left-block .next--stick {
   width: 100%;
@@ -1145,11 +1146,11 @@ footer .social li .insst {
   margin-bottom: 15px;
 }
 .krash a {
-  font-size: 14px;
+  font-size: 12px;
   color: #f45653;
 }
 .krash a.active {
-  font-size: 14px;
+  font-size: 12px;
   color: #f45653;
   text-decoration: underline;
 }
@@ -1700,6 +1701,8 @@ article h5,
 article h6,
 article p {
   margin: 15px 0;
+  float: left;
+  width: 100%;
 }
 article h1,
 article h2,
@@ -1845,16 +1848,13 @@ article form input:invalid {
 article form input:focus {
   border: solid 1px #4fa4da;
 }
-article form input:valid {
-  border: solid 1px #59d4bf;
-}
 article form input:disabled {
   border: solid 0px;
 }
 article form input.time {
   font-size: 15px;
   float: left;
-  width: 75px;
+  width: 78px;
   margin-bottom: 30px;
   color: #21202e;
   padding: 10px 18px;
@@ -1869,7 +1869,7 @@ article form textarea {
 article .tab1 {
   float: left;
   width: 100%;
-  margin: 15px 0;
+  margin: 20px 0;
   position: relative;
   background: #fff;
 }
