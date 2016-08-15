@@ -392,6 +392,16 @@ li {
   background: #276c61;
   color: #fff;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'PTSansBold', sans-serif;
+  color: #21202e;
+}
+h2 {
+  font-size: 23px;
+}
 .wrapper {
   float: left;
   width: 100%;
@@ -535,7 +545,7 @@ header .button-block a {
 }
 .navigate .left-block {
   float: left;
-  width: 250px;
+  width: 240px;
   padding-right: 20px;
   height: 100%;
   display: table;
@@ -543,7 +553,7 @@ header .button-block a {
 }
 .navigate .left-block input {
   float: left;
-  width: 191px;
+  width: 183px;
   border: solid 1px #bcbcbc;
   border-radius: 3px;
   padding: 8px 18px;
@@ -565,7 +575,7 @@ header .button-block a {
 .navigate nav {
   float: left;
   height: 100%;
-  width: 688px;
+  width: 699px;
   overflow: hidden;
 }
 .navigate nav a {
@@ -574,7 +584,7 @@ header .button-block a {
   color: #21202e;
   font-size: 16px;
   font-family: 'PTSansBold', sans-serif;
-  margin-right: 78px;
+  margin-right: 81px;
   padding-top: 18px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -595,7 +605,7 @@ header .button-block a {
 }
 .home .left-block {
   float: left;
-  width: 250px;
+  width: 240px;
   padding-right: 20px;
   height: 100%;
   display: table;
@@ -612,7 +622,7 @@ header .button-block a {
 }
 .home .left-block .sub--menu--tovarov .title-block .title-block-txt {
   display: inline-table;
-  width: 190px;
+  width: 180px;
   height: 100%;
   background: #276c61;
   float: left;
@@ -938,7 +948,7 @@ header .button-block a {
 .home .right-content-block .txt-block {
   float: left;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 .home .right-content-block .txt-block article {
@@ -991,7 +1001,7 @@ header .button-block a {
   width: 100%;
   height: 240px;
   background: #21202e;
-  padding: 20px 5px;
+  padding: 20px 10px;
 }
 .home .right-content-block .inform--block .one--news {
   width: 33.33333%;
@@ -1001,8 +1011,8 @@ header .button-block a {
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   position: relative;
-  border-left: solid 10px #21202e;
-  border-right: solid 10px #21202e;
+  border-left: solid 5px #21202e;
+  border-right: solid 5px #21202e;
 }
 .home .right-content-block .inform--block .one--news .butt-bot {
   position: absolute;
@@ -1044,9 +1054,6 @@ header .button-block a {
   border-radius: 5px;
   width: 85%;
   margin: 0 auto;
-}
-.home .right-content-block .inform--block .none-solid {
-  border: solid 0px;
 }
 footer {
   position: relative;
@@ -1611,7 +1618,7 @@ footer .social li .insst {
 .recom {
   float: left;
   width: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 25px;
 }
 .recom h2 {
   margin-bottom: 32px;
