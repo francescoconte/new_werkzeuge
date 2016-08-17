@@ -660,6 +660,7 @@ header .button-block a {
   font-size: 14px;
   padding: 5px 0 12px;
   line-height: 1.7;
+  cursor: pointer;
 }
 .home .left-block .sub--menu--tovarov .sub--menu--min .sub-titl-ico {
   position: absolute;
@@ -708,6 +709,7 @@ header .button-block a {
   height: 70px;
   margin-bottom: 10px;
   background: #276c61;
+  cursor: pointer;
 }
 .home .left-block .sub--menu--akciii .sub--akciii-titl {
   width: 100%;
